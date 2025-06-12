@@ -1,0 +1,12 @@
+{
+  "name": "back_project1",
+  "version": "1.0.0",
+  "description": "new project ",
+  "license": "ISC",
+  "author": "vishnu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  }
+}
