@@ -4,9 +4,12 @@
   "description": "new project ",
   "license": "ISC",
   "author": "vishnu",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node index"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
