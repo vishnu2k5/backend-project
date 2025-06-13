@@ -14,7 +14,7 @@ connectDB()
         console.log(`there is an error:${error}`)
     })
     app.listen(process.env.PORT || 8000,()=>{
-        console.log(`seerver id hosting at:${process.env.PORT}`)
+        console.log(`seerver is hosting at:${process.env.PORT}`)
     })
 })
 .catch((err)=>{console.log("mongoo db connection failed !!!")})
